@@ -1,23 +1,5 @@
 <?php
 require "../Database/connectionHandle.php";
-    // $username = $_REQUEST['username'];
-    // $email = $_REQUEST['email'];
-    // $password = $_REQUEST['password'];
-    // $hashedPassword = md5($password);
-    // $conn = ConnectionHandle::setupConnection();
-    // $sql = "SELECT * FROM user WHERE username='".$username."' AND password='".$hashedPassword."'";
-    // $res =  $conn->query($sql);
-    // if($res->num_rows > 0) {
-    //     echo "Account has already exist!";
-    // } else {
-    //     $addAccount = "INSERT INTO user(username, password, email) VALUES ('".$username."','".$hashedPassword."','".$email."')";
-    //     if($conn->query($addAccount) === TRUE) {
-    //         echo "Account registed successful!";
-    //     } else {
-    //         echo "No way!";
-    //     };
-
-    // }
 
     header("Access-Control-Allow-Origin: * ");
     header("Content-Type: application/json; charset=UTF-8");
